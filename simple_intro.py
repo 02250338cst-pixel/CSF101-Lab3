@@ -7,7 +7,7 @@ elif num < 0:
 else:
     print("The number is zero")
 
- Program to check if a number is even or odd
+# Program to check if a number is even or odd
 num = int(input("Enter a number: "))
 
 if num % 2 == 0:
@@ -15,7 +15,7 @@ if num % 2 == 0:
 else:
    print("The number is odd")
 
- Program to find the largest of two numbers
+# Program to find the largest of two numbers
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
@@ -23,8 +23,7 @@ if num1 > num2:
     print(f"{num1} is larger")
 else:
     print(f"{num2} is larger")
-
-Program to find the largest of three numbers
+# Program to find the largest of three numbers
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 num3 = float(input("Enter third number: "))
@@ -55,7 +54,7 @@ else:
 
 print(f"Grade {grade}")
 
- Menu-driven program for basic arithmetic operations
+# Menu-driven program for basic arithmetic operations
 print("1. Add")
 print("2. Subtract")
 print("3. Multiply")
@@ -74,15 +73,16 @@ elif choice == 2:
     print(f"Difference = {result}")
 elif choice == 3:
     result = num1 * num2
-#    print(f"Product = {result}")
-#elif choice == 4:
-#    if num2 != 0:
-#        result = num1 / num2
-#        print(f"Quotient = {result}")
-#    else:
-#        print("Error: Division by zero is not allowed")
-#else:
-#    print("Invalid choice")
+    print(f"Product = {result}")
+elif choice == 4:
+    if num2 != 0:
+        result = num1 / num2
+        print(f"Quotient = {result}")
+    else:
+        print("Error: Division by zero is not allowed")
+else:
+    print("Invalid choice")
+
 
 part B : Loops (for and while)
 # Program to print numbers from 1 to 10
